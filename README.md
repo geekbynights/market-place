@@ -98,6 +98,17 @@ What would you do if you had more time? Which trade-offs did you take? What arch
 * I just created the presentation layer for displaying content to users
 
 
+Running Instructions:
+
+- You can execute server app by this command `mvn spring-boot-run`
+
+- You need to install npm dependencies for client application. So run these commands in order;
+    - `npm install`
+    - `npm run dev`
+
+
+
+
 Have fun!
 
 
