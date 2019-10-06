@@ -2,13 +2,22 @@
     <b-container>
         <b-row>
             <b-col col lg="9">
+                <b-link href="#/ads">
+                    <font-awesome-icon icon="arrow-left"></font-awesome-icon>
+                    Back to result page
+                </b-link>
+            </b-col>
+        </b-row>
+        <b-row style="padding-top: 3rem;">
+            <b-col col lg="9">
                 <b-card v-if="ad"
                         :title="ad.title"
                         tag="article"
                         style="max-width: 60rem;"
                         class="mb-2">
                     <div style="text-align: center">
-                        <b-card-img style="max-width: 40rem; max-height: 30rem;" :src="ad.imageUrl" alt="Image"></b-card-img>
+                        <b-card-img style="max-width: 40rem; max-height: 30rem;" :src="ad.imageUrl"
+                                    alt="Image"></b-card-img>
                     </div>
                     <b-card-text style="margin-top: 1rem;">Description</b-card-text>
                     <hr/>
@@ -49,6 +58,7 @@
 <script>
 
     import ContactForm from "../editor/ContactForm.vue";
+
     export default {
         name: 'ads',
         components: {ContactForm},

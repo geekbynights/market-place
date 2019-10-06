@@ -7,10 +7,12 @@ import VueRouter from 'vue-router'
 import {router} from './router/router.js'
 import VueResource from 'vue-resource'
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 
 library.add(faEnvelope)
+library.add(faArrowLeft)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
