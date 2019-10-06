@@ -106,6 +106,12 @@ Running Instructions:
     - `npm install`
     - `npm run dev`
 
+Screenshots;
+
+- [Ad List](./screenshots/1.png)
+- [Add Detail](./screenshots/2.png)
+- [Send Message Form](./screenshots/3.png)
+- [Confirmation Message](./screenshots/4.png)
 
 
 
